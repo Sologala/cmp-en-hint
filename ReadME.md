@@ -10,6 +10,9 @@ However,it might not be compatible with Windows platforms due to its dependency 
 Additionally, using pipe call for dictionary queries can be inefficient when dealing with large dictionary files.
 By loading and cacheing dictionary in memory with Lua and performing binary searches on sorted dictionaries, can achieve fast word completion.
 
+## Demo
+![](./.resource/screen_shot.gif)
+
 # Usage
 
 For 💤[Lazy.nvim](https://github.com/folke/lazy.nvim)
@@ -34,5 +37,5 @@ return {
 ```
 
 # Dict source
-[goole-10000-words](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english-usa.txt)
+[google-10000-words](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english-usa.txt)
 
