@@ -2,7 +2,7 @@
 
 `cmp-en-hint` provides the English word completion functionality in Vim/Neovim.
 
-The underlying working principle of `cmp-en-hint` is binary searching current typing word in pre-provided sorted [dictionary](./lua/cmp_en_hint/google-10000-english-usa.txt)
+The underlying working principle of `cmp-en-hint` is binary searching current typing word in pre-provided sorted [dictionary](./lua/cmp_en_hint/word-alpha.txt)
 
 ## Motivation and alternative
 👏 There is an open-source plugin available to supplement English word usage.[cmp-look](https://github.com/octaltree/cmp-look).
@@ -35,7 +35,6 @@ return {
     },
 }
 ```
-
 # Dict source
-[google-10000-words](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english-usa.txt)
-
+10K words [google-10000-words](https://github.com/first20hours/google-10000-english/blob/master/google-10000-english-usa.txt)
+370K words [word-alpha](https://github.com/dwyl/english-words/blob/master/words_alpha.txt)

@@ -37,7 +37,7 @@ end
 local M = {}
 
 local current_path = string.sub(debug.getinfo(1).source, 2, string.len("/init.lua") * -1)
-local filename = current_path .. "google-10000-english-usa.txt"
+local filename = current_path .. "word-alpha.txt"
 
 -- print("path is ", current_path)
 g_dictionary = {}
